@@ -1,0 +1,36 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.maindiv {
+  background-image: url(./pexels-simon-berger-1323550.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-weight: 900;
+}
+.maindiv h1 {
+  padding: 10%;
+}
+.maindiv input {
+  padding: 10%;
+}
+.maindiv button {
+  color: wheat;
+  background-color: black;
+  width: 20%;
+  margin: 2%;
+}
+
+.maindiv button:active {
+  color: black;
+  background-color: white;
+}
+.maindiv button:hover {
+  color: blue;
+}
