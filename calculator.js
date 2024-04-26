@@ -13,6 +13,8 @@ let nine = document.getElementById("nine");
 let plus = document.getElementById("plus");
 let minus = document.getElementById("minus");
 let divison = document.getElementById("division");
+let mul=document.getElementById("mul");
+
 let comment = "";
 let clear = document.getElementById("clear");
 zero.addEventListener("click", function () {
@@ -69,9 +71,16 @@ plus.addEventListener("click", function () {
   comment = "+";
   inputvalue.value += comment;
 });
+
+mul.addEventListener("click", function () {
+  comment = "*";
+  inputvalue.value += comment;
+});
+
 ans.addEventListener("click", function () {
   inputvalue.value = eval(inputvalue.value);
 });
 clear.addEventListener("click", function () {
   inputvalue.value = null;
 });
+
